@@ -1,4 +1,4 @@
-FROM  node:lts-slim
+FROM  node:0.11.14
 COPY target/demo-0.0.1-SNAPSHOT.jar demo.jar
 
 CMD java -jar demo.jar
